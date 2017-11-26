@@ -1,0 +1,89 @@
+/* Header */
+/* Body */
+body {
+  margin: 60px 60px;
+}
+/* Nav */
+.main-nav {
+  float: right;
+}
+* {
+  font-size: 1em;
+}
+
+nav li {
+    display: inline-block;
+    float: left;
+    margin-left: 12px;
+   
+}
+
+/* Profile */
+.profile_img{
+    float: right;
+    margin-left: 20px;
+}
+.profile {
+
+}
+/* Portfolio */
+#portfolio {
+    text-align: center;
+    margin-top: 20em;
+
+}
+img {
+    width: 300px;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: center;
+    text-align: center;    
+} 
+
+/* Row */
+.row, 
+.clear-all{
+    clear: all;
+}
+
+/* Columns */
+.col {
+    display: inline-block;
+    width: 29%;
+    min-width: 300px;
+    vertical-align: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+}
+
+.inherit {
+    float: inherit;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.clear-left{
+    clear: left;
+}
+.clear-right{
+    clear: right;
+}
+
+/* Media Queries */
+@media (min-width: 769px) {
+  box-sizing: border-box;
+}
+
+@media (min-width: 1025px) {
+  
+}
+/* Contact */
+.contact{
+  text-align: center;
+  vertical-align: auto;
+}
