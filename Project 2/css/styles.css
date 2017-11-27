@@ -24,6 +24,7 @@ nav li {
     margin-left: 20px;
 }
 .profile {
+  font-family: 'Montserrat',serif;
 
 }
 /* Portfolio */
@@ -75,11 +76,15 @@ img {
 }
 
 /* Media Queries */
-@media (min-width: 769px) {
+@media (min-width: 320px) {
   box-sizing: border-box;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 768px) {
+  box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
   
 }
 /* Contact */
