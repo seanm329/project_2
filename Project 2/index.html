@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name=viewport content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/styles.css">
-  <title>Flexbox Responsive Website</title>
+  <title>Responsive Website</title>
 
 </head>
 
@@ -29,14 +29,14 @@
       </nav>
     </div>
     <!-- end of Student box   -->
-    <div id="profile">
+    <div id="profile" class="clear-all">
       <img class="propic float-rt-768" src="images/responsive-layout-profile.png">
       <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development
         at Treehouse and am excited to put all my skills to use!</p>
     </div>
   </header>
   <main>
-    <div class="portfolio clear-all" id="portfolio">
+    <div class="clear-all" id="portfolio">
       <h2 id="headingPortfolio">PORTFOLIO</h2>
 
 
@@ -87,18 +87,27 @@
     <div id="contact" class="clear-all">
       <h2>CONTACT</h2>
       <span>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</span>
-
+      <p>Phone: +1 (111) 555-1234</p>
+      <p>Email:<a href="mailto:email@yoursite.com"></a>    email@yoursite.com</p>
+      
     </div>
     <!--end of contact  -->
   </main>
   <footer>
-    <h2>Student name</h2>
-    <nav>
-      <ul>
-        <li>
-          <a href="#top">BACK TO TOP</a>
-        </li>
-      </ul>
+    <p id="footName">Student Name</p>
+    <p id="back320"><a href="#">Back to Top</a></p>
+    <nav id="footNav">
+        <ul>
+            <li>
+              <a href="#">HOME</a>
+            </li>
+            <li>
+              <a href="#portfolio">PORTFOLIO</a>
+            </li>
+            <li>
+              <a href="#contact">CONTACT</a>
+            </li>
+          </ul>
     </nav>
 
   </footer>
