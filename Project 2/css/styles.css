@@ -147,5 +147,14 @@ clear-all {
     #portfolio{
       padding-top:4em;
     }
-}
+    #profile{
+      clear:both;
+    }
+    .studentName{
+      display:inline;
+    }
+    h1 {
+      float:left;
+    }
+
 
